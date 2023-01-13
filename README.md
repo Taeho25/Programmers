@@ -12,3 +12,7 @@ Programmers 문제풀이
 3. 문자열 길이 <string.h>
     - size_t strlen(const *_Str);       // _Str : 문자열 포인터 or 문자열 배열
     - ex) my_string_len = strlen(my_string);
+
+
+## 문제
+- Lv.0 031_특정 문자 제거하기
