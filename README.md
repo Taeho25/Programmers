@@ -1,4 +1,6 @@
 # Programmers
+Programmers 문제풀이
+
 ## NOTE
 1. 동적할당 : malloc (stdlib.h)
     - int* answer = (int*)malloc(sizeof(int) * strlist_len);
