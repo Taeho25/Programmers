@@ -1,5 +1,5 @@
-## Programmers
-# NOTE
+# Programmers
+## NOTE
 1. 동적할당 : malloc (stdlib.h)
     - int* answer = (int*)malloc(sizeof(int) * strlist_len);
     - char* answer = (char*)malloc(my_string_len + 1);
