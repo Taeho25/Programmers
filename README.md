@@ -77,6 +77,19 @@ else{
 }
 ```
 
+#### 6. memcpy 함수 (메모리 복사)
+- 헤더파일 : <string.h>
+- 정의 : void* memcpy (void* dest, const void* source, size_t num)
+- 예제
+
+```c
+memcpy(dest, src, sizeof(int) * src_len);   // dest : 복사받을 메모리를 가리키는 포인터
+                                            // src : 복사할 메모리를 가리키는 포인터
+                                            // src_len : 복사할 데이터의 길이
+memcpy(dest, src, sizeof(src));             // 위와 동일하게 작동
+```
+
+
 ------
 
 
