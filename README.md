@@ -16,20 +16,16 @@ https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&page=1
 - 예제
 
 ```c
+// 정수형 변수 동적 할당
 int* answer = (int*)malloc(sizeof(int) * strlist_len);
-```
 
-- 예제 2
-```c
-char* answer = (char*)malloc(my_string_len + 1);
-```
+// 문자형 변수 동적 할당
+char* answer = (char*)malloc(sizeof(char) * my_string_len + 1);     // char는 1바이트라서 sizeof(char)를 생략해도 무관
 
-- 예제 3 (2차원 배열 동적 할당)
-
-```c
-int** answer = (int**)malloc(sizeof(int*) * height);
+// 정수형 변수 2차원 배열 동적 할당
+int** answer = (int**)malloc(sizeof(int*) * height);    // 배열의 세로 크기 height
 for (int i=0; i<height; i++){
-    answer[i] = (int*)malloc(sizeof(int) * width);
+    answer[i] = (int*)malloc(sizeof(int) * width);      // 배열의 가로 크기 width
 }
 ```
 
