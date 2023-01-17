@@ -33,14 +33,14 @@ for (int i=0; i<height; i++){
 
 - 헤더파일 : <stdlib.h>
 - 정의 : void* calloc(strlist_len, sizeof(int);
+- - malloc과 calloc의 차이
+    - malloc은 할당된 공간의 값을 바꾸지 않는다.
+    - calloc은 할당된 공간의 값을 모두 0으로 바꾼다.
 - 예제
 
 ```c
 int* answer = (int*)calloc(strlist_len, sizeof(int));
 ```
-- malloc과 calloc의 차이
-    - malloc은 할당된 공간의 값을 바꾸지 않는다.
-    - calloc은 할당된 공간의 값을 모두 0으로 바꾼다.
 
 ### 3. strcpy 함수 (문자열 복사)
 - 헤더파일 : <string.h>
