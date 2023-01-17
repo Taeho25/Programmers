@@ -108,4 +108,6 @@ memcpy(dest, src, sizeof(src));             // 위와 동일하게 작동
 
 
 ## 문제
+
 - Lv.0 특정 문자 제거하기
+- Lv.0 이진수 바꾸기
