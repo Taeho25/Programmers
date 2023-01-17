@@ -7,13 +7,13 @@
     - 헤더파일 : <stdlib.h> or <malloc.h>
     - 정의 : void* malloc(size_t size)
     - ex
-    '''
-    int* answer = (int*)malloc(sizeof(int) * strlist_len);
-    '''
+'''
+int* answer = (int*)malloc(sizeof(int) * strlist_len);
+'''
     - ex2
-    '''
-    char* answer = (char*)malloc(my_string_len + 1);
-    '''
+'''
+char* answer = (char*)malloc(my_string_len + 1);
+'''
 - malloc 함수2 (2차원 배열 동적 할당)
     - ex
     '''
