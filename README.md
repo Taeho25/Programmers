@@ -1,27 +1,37 @@
 # Programmers
-- Programmers 문제풀이
-- https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&page=1
+
+Programmers 문제풀이
+
+https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&page=1
+
+------
 
 ## NOTE
-- malloc 함수 (동적 할당)
-    - 헤더파일 : <stdlib.h> or <malloc.h>
-    - 정의 : void* malloc(size_t size)
-    - ex
 
-        int* answer = (int*)malloc(sizeof(int) * strlist_len);
+#### malloc 함수 (동적 할당)
 
-    - ex2
+- 헤더파일 : <stdlib.h> or <malloc.h>
+- 정의 : void* malloc(size_t size)
+- ex
 
-        char* answer = (char*)malloc(my_string_len + 1);
+```c
+int* answer = (int*)malloc(sizeof(int) * strlist_len);
+```
 
-- malloc 함수2 (2차원 배열 동적 할당)
-    - ex
-    
-        int** answer = (int**)malloc(sizeof(int*) * num_list_len/n);
-        for (int i=0; i<num_list_len/n; i++){
-            answer[i] = (int*)malloc(sizeof(int) * n);
-        }
-    
+- ex2
+```c
+char* answer = (char*)malloc(my_string_len + 1);
+```
+
+- ex3 (2차원 배열 동적 할당)
+
+```c
+int** answer = (int**)malloc(sizeof(int*) * num_list_len/n);
+for (int i=0; i<num_list_len/n; i++){
+    answer[i] = (int*)malloc(sizeof(int) * n);
+}
+```
+
 - calloc 함수 (동적할당)
     - 헤더파일 : <stdlib.h>
     - 정의 : void* calloc(strlist_len, sizeof(int);
@@ -41,6 +51,7 @@
     - ex) answer = strcmp("ABC", "ABC");
     - 같으면 0 반환
 
+------
 
 ## 문제
 - Lv.0 특정 문자 제거하기
