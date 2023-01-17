@@ -39,7 +39,7 @@ for (int i=0; i<height; i++){
 int* answer = (int*)calloc(strlist_len, sizeof(int));
 ```
 - malloc과 calloc의 차이
-    - malloc은 할당된 공간의 값을은 바꾸지 않는다.
+    - malloc은 할당된 공간의 값을 바꾸지 않는다.
     - calloc은 할당된 공간의 값을 모두 0으로 바꾼다.
 
 #### 3. strcpy 함수 (문자열 복사)
