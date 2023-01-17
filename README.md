@@ -11,8 +11,8 @@
 - malloc 함수2 (2차원 배열 동적 할당)
     - ex) int** answer = (int**)malloc(sizeof(int*) * num_list_len/n);
     -     for (int i=0; i<num_list_len/n; i++){
-    -        answer[i] = (int*)malloc(sizeof(int) * n);
-    -        }
+            answer[i] = (int*)malloc(sizeof(int) * n);
+            }
 - calloc 함수 (동적할당)
     - 헤더파일 : <stdlib.h>
     - 정의 : void* calloc(strlist_len, sizeof(int);
