@@ -1,6 +1,6 @@
 # Programmers
 
-Programmers 문제풀이(난이도 낮은순)
+Programmers 문제풀이(정답률 높은 순)
 
 - Lv.0 : <https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&page=1>
 
