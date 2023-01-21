@@ -1,9 +1,8 @@
 # Programmers
 
-Programmers 문제풀이
+Programmers 문제풀이(난이도 낮은순)
 
-- Lv.0 문제
-https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&page=1
+- Lv.0 : <https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&page=1>
 
 ------
 
